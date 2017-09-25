@@ -4,7 +4,7 @@ Repository-
 A repository is a location where all the files for a particular project are stored. Each project has its own repo, and you can access it
 with a unique URL.A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, 
 spreadsheets, and data sets – anything your project needs.
-To create a new repository=
+Step 1. To create a new repository=
 1.In the upper right corner, next to your avatar or identicon, click  and then select New repository.
 2.Name your repository hello-world.
 3.Write a short description.
@@ -16,18 +16,47 @@ the further development of programs and other projects. If you find a project on
 repo, make the changes you’d like, and release the revised project as a new repo. If the original repository that you forked to create your
 new project gets updated, you can easily add those updates to your current fork.
 
-Pull request-Contributions to a source code repository that uses a distributed version control system are commonly made by means of a pull
-request. 
-
-Create a Branch=
+Step 2. Create a Branch=
 1.Branching is the way to work on different versions of a repository at one time.
 2.By default your repository has one branch named master which is considered to be the definitive branch. We use branches to experiment and 
 make edits before committing them to master.
 3.When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time. If someone 
 else made changes to the master branch while you were working on your branch, you could pull in those updates.
-This diagram shows:
 
-The master branch
-A new branch called feature (because we’re doing ‘feature work’ on this branch)
-The journey that feature takes before it’s merged into master
+Step 3. Make and commit changes=
+On GitHub,saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular 
+change was made. Make and commit changes
 
+1.Click the README.md file.
+2.Click the  pencil icon in the upper right corner of the file view to edit.
+3.In the editor, write a bit about yourself.
+4.Write a commit message that describes your changes.
+5.Click Commit changes button.
+These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from 
+master.
+
+Step 4. Open a Pull Request=
+Now that you have changes in a branch off of master, you can open a pull request.
+Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that 
+someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content
+from both branches. The changes, additions, and subtractions are shown in green and red.
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+Steps:
+1.Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button.
+2.Select the branch you made, readme-edits, to compare with master (the original).
+3.Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
+4.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
+5.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
+6.Click Create pull request.
+
+Step 5. Merge your Pull Request-
+In final step, you can bring your changes together – merging your readme-edits branch into the master branch.
+1.Click the green Merge pull request button to merge the changes into master.
+2.Click Confirm merge.
+3.Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+I have learned to create a project and make a pull request on GitHub.
+-Created an open source repository.
+-Started and managed a new branch.
+-Changed a file and committed those changes to GitHub.
+-Opened and merged a Pull Request.
